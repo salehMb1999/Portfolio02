@@ -20,3 +20,32 @@ body {
 }
 
 /* dekstopNav Styles */
+#desktopNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+.navLinks {
+  display: flex;
+  gap: 3rem;
+  font-size: 2rem;
+}
+.navLink a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+}
+.navLink a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+.navLogo {
+  cursor: default;
+  font-size: 3rem;
+}
