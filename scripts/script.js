@@ -39,5 +39,5 @@ arrow.addEventListener("click", () => {
   location.href = "./#experience";
 });
 arrow2.addEventListener("click", () => {
-  location.href = "./#projects";
+  location.href = "./#contacts";
 });
