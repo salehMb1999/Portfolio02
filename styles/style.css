@@ -168,7 +168,11 @@ section {
   width: 40rem;
   margin: auto 0;
 }
-.profileTexts {
+.profileTexts,
+.aboutText1,
+.experienceText1,
+.projectsText1,
+.contactsText1 {
   align-self: center;
   text-align: center;
 }
@@ -179,8 +183,13 @@ section {
   text-align: center;
   font-size: 2.75rem;
 }
-.profileTitle {
+.profileTitle,
+.aboutTitle,
+.experienceTitle,
+.projectsTitle,
+.contactsTitle {
   font-weight: 900;
+  font-family: "poppinsSemibold";
 
   font-size: 3.5rem;
   text-align: center;
@@ -240,4 +249,62 @@ section {
 }
 .profileBtnWrapper {
   gap: 1.5rem;
+}
+
+/* About Section */
+
+.about {
+  position: relative;
+}
+.aboutWrappers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.aboutWrappers,
+.aboutDetailsWrapper {
+  display: flex;
+}
+.aboutDetailsWrapper {
+  justify-content: center;
+  flex-direction: column;
+  max-width: 65%;
+}
+.aboutPic {
+  width: 100%;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+.arrow {
+  position: absolute;
+  right: -12rem;
+  bottom: 2.5rem;
+}
+.detailsWrapper {
+  padding: 2rem;
+  flex: 1;
+  background-color: #fff;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  border: 0.1rem rgb(53, 53, 53) solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+.aboutWrapper {
+  gap: 5rem;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutPicWrapper {
+  height: 40rem;
+  width: 40rem;
+  margin: auto 0;
 }

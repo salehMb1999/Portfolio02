@@ -4,6 +4,7 @@ const profileBtn = document.querySelector(".profileBtn");
 const profileBtn2 = document.querySelector(".profileBtn2");
 const linkedinIcon = document.querySelector(".linkedinIcon");
 const githubIcon = document.querySelector(".githubIcon");
+const arrow = document.querySelector(".arrow");
 let menuOpen = false;
 hamburgerMenuLine.addEventListener("click", () => {
   if (!menuOpen) {
@@ -32,4 +33,7 @@ linkedinIcon.addEventListener("click", () => {
 });
 githubIcon.addEventListener("click", () => {
   location.href = "https://github.com/salehMb1999";
+});
+arrow.addEventListener("click", () => {
+  location.href = "./#experience";
 });
