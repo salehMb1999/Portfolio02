@@ -278,10 +278,11 @@ section {
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
 }
-.arrow {
+.arrow,
+.arrow2 {
   position: absolute;
   right: -12rem;
-  bottom: 2.5rem;
+  bottom: 4rem;
 }
 .detailsWrapper {
   padding: 2rem;
@@ -308,3 +309,44 @@ section {
   width: 40rem;
   margin: auto 0;
 }
+
+/* experience styles */
+
+.experience {
+  position: relative;
+}
+
+.experienceSubTitle {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+}
+.experienceDetailsWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.articleWrapper {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+article {
+  display: flex;
+  width: 15rem;
+  padding: 1rem;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+article .icon {
+  cursor: default;
+}
+article h3 {
+  font-weight: 800;
+}
+
+/* project Styles */

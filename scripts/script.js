@@ -5,6 +5,7 @@ const profileBtn2 = document.querySelector(".profileBtn2");
 const linkedinIcon = document.querySelector(".linkedinIcon");
 const githubIcon = document.querySelector(".githubIcon");
 const arrow = document.querySelector(".arrow");
+const arrow2 = document.querySelector(".arrow2");
 let menuOpen = false;
 hamburgerMenuLine.addEventListener("click", () => {
   if (!menuOpen) {
@@ -36,4 +37,7 @@ githubIcon.addEventListener("click", () => {
 });
 arrow.addEventListener("click", () => {
   location.href = "./#experience";
+});
+arrow2.addEventListener("click", () => {
+  location.href = "./#projects";
 });
